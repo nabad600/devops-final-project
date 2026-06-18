@@ -1,6 +1,6 @@
 resource "aws_instance" "web" {
 
-  ami = "ami-xxxxxxxx"
+  ami = "ami-0741dc526e1106ae5"
 
   instance_type = var.instance_type
 
