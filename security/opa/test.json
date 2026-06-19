@@ -1,0 +1,11 @@
+{
+  "resource_type": "aws_security_group",
+  "ingress": [
+    {
+      "from_port": 22,
+      "cidr_blocks": [
+        "0.0.0.0/0"
+      ]
+    }
+  ]
+}
